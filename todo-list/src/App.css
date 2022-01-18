@@ -1,0 +1,70 @@
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 40px;
+}
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.App-container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Login-container>form{
+  display: flex;
+  flex-direction: column;
+}
+
+.Login-container>form label{
+  margin: 5px 0;
+  text-align: left;
+}
+
+.Login-container>form input{
+  margin-bottom: 10px
+}
+
+.Listitem-container{
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.Listitem-container>.row{
+  display: flex;
+  align-items: center;
+}
+
+.Additem-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Additem-container>input{
+  width: 70%;
+}
+
+.Additem-container>button{
+  width: 28%;
+}
+
+.Auth-btn{
+  margin: 10px 0;
+  width: 100%;
+}
+
+.error{
+  margin-top: -5px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: rgb(197, 31, 31);
+}
+
